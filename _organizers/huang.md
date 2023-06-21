@@ -1,21 +1,20 @@
 ---
 # Name of the organizer
-name: Jeannette Bohg
+name: Wenlong Huang
 
 # Link to the organizer's webpage
-webpage: https://web.stanford.edu/~bohg/
+webpage: https://huangwl18.github.io/
 
 # Primary affiliation
 affil: Stanford
 # Link to the primary affiliation
-affil_link: http://iprl.stanford.edu/
+affil_link: https://www.stanford.edu/
 
 # An image of the organizer (square aspect ratio works the best)
-# img: jane.jpg # (place in the `assets/img/organizers` directory)
-img_url: https://web.stanford.edu/~bohg/img/portrait_square.png
+img: wenlong_huang.jpeg # (place in the `assets/img/organizers` directory)
 
 # Secondary affiliation
-# affil2:
+# affil2: ...
 # Link to the secondary affiliation
-# affil2_link:
+# affil2_link: ...
 ---

@@ -7,103 +7,90 @@ title: Home
 layout: all
 ---
 
-![LTAMP banner](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/img/LTAMP-banner.png)
+The rise of large foundation models, large language models (LLMs) and visual language models (VLMs), has opened a new era for robotics. These models, with their in-context learning and prompting capabilities, enable humans to interactively create new workflows, authorize new tasks, and construct high-level motion plans to solve tasks through a natural language interface. Compared with traditional robotics where task specification has to be done through a rule-based system that gets broken with environmental changes, LLM-equipped robots demonstrate the capability to solve real world problems in diverse environments on demand. Furthermore, researchers have recently begun to explore the use of foundation models in other robotic applications, such as action generation and understanding of physics and dynamics, which generalizes to unseen settings. These discoveries naturally lead us to the next big question: How far are we away from a true “robotic GPT” moment where robots become ready for everyone and integrated into everyday life?
 
-This workshop will investigate the role of learning within Task and Motion Planning (TAMP). TAMP has shown remarkable capabilities in scaling to long action sequences, many objects and a variety of tasks. However, TAMP often relies on simplified models, assumes perfect world knowledge, and requires long computation time, which limits the real world applicability. To address these limitations, there has been significant recent interest in integrating learning methods into TAMP [
-<span class="secret1"><a href="https://proceedings.mlr.press/v164/ortiz-haro22a.html" target="_blank">1</a></span><span class="reveal1">Structured deep generative models for sampling on constraint manifolds in sequential manipulation. <br>Joaquim Ortiz-Haro, Jung-Su Ha, Danny Driess, Marc Toussaint. <br>CoRL 2022.</span>,
-<span class="secret2"><a href="https://arxiv.org/abs/2210.12250" target="_blank">2</a></span><span class="reveal2">TAPS: Task-Agnostic Policy Sequencing. <br>Christopher Agia, Toki Migimatsu, Jiajun Wu, Jeannette Bohg. <br>arXiv 2022.</span>,
-<span class="secret3"><a href="https://arxiv.org/abs/2210.12631" target="_blank">3</a></span><span class="reveal3">Guided skill learning and abstraction for long-horizon manipulation. <br>Shuo Cheng, Danfei Xu. <br>CoRL Workshop on Learning, Perception, and Abstraction for Long-Horizon Planning 2022.</span>,
-<span class="secret4"><a href="https://arxiv.org/abs/2103.00589" target="_blank">4</a></span><span class="reveal4">Learning symbolic operators for task and motion planning. <br>Tom Silver, Rohan Chitnis, Joshua Tenenbaum, Leslie Pack Kaelbling, Tomás Lozano-Pérez. <br>IROS 2021.</span>,
-<span class="secret5"><a href="https://arxiv.org/abs/2211.01576" target="_blank">5</a></span><span class="reveal5">Sequence-based plan feasibility prediction for efficient task and motion planning. <br>Zhutian Yang, Caelan Reed Garrett, Leslie Pack Kaelbling, Tomás Lozano-Pérez, and Dieter Fox. <br>RSS 2023.</span>
-]. Despite this progress, there remain many open questions that must be addressed before learning-based TAMP can be applied in real-world settings and in full generality.
+In this workshop, we plan to:
+- Foster collaborations between a diverse group of researchers and practitioners from a diverse background, from both industry and academia, within and outside the robotics field, who work on problems ranging from task and motion planning, vision and understanding, to motion control.
+- Discuss the current progresses, challenges and limitations in applying foundation models to robotic problems at all levels: from decision making and motion planning to motor control. 
+- Explore the future of “robotic foundation models”: What it would be like, and how we can arrive there. We aim to review various methods tuning existing VLM/LLMs for robotic usage, from prompting to finetuning, and discuss how to connect the missing embodiment concept and physical understanding with existing model training techniques.
 
-The goal of this workshop is to bring together a diverse set of researchers from TAMP, learning for TAMP, computer vision, classical AI planning, and NLP to discuss not only the current state of learning for TAMP, but also the broader state of learning for planning in robotics. Subtopics include: benchmarks, language, perception, skill learning, manipulation, closed-loop TAMP, and policy learning. All of these discussions will take place against the backdrop of recent progress in foundation models.
-
-
-#### Discussion Topics
-
-- **Benchmarks**: What benchmark environments will help the community better measure the progress of TAMP and integrate learning with TAMP?
-- **Large Language Models for Task Planning**: LLM has shown promises in generalizable task planning. What are the potentials and challenges in integrating LLM with TAMP?
-- **Perception**: Perception in TAMP and the latest developments in this area, including 3D computer vision, open-world recognition, and sensor fusion.
-- **Error Recovery / Closed-Loop TAMP**: Techniques and principles that allow TAMP to be more robust and recover from errors and interventions.
-- **Skill Learning / Manipulation**: Skill learning and manipulation for TAMP, including but not limited to deep reinforcement learning and imitation learning. How do we make the learned skills generalizable and composable?
-- **Model Learning**: Techniques and principles for learning discrete or continuous transition models from interaction data.
-
-
-### Call for Papers
-
-Important dates (AoE):
-- ~~Submission open: May 1~~
-- ~~Submission deadline: May 24~~
-- Paper acceptance notification: ~~June 10~~ ~~June 12~~ **June 13**
-- Camera ready due: July 1
-- Workshop: July 10
-
-Submission types:
-- **Short papers**: 4 pages. Appendix is allowed with no page limit, included in the same document as main text. Paper can be work submitted to or accepted by other conferences or journals.
-- **"Blue Sky" papers**: We seek "Blue Sky" submissions, recommended 2-4 pages in length, that present a novel high-level perspective of the challenges associated with learning for TAMP. Preference will be given to early career academics—senior graduate students, postdocs, and pre-tenure faculty. Blue Sky submissions are expected to have only a single author. Please include "[Blue Sky]" in the paper title.
-
-Please use this [Latex paper template](https://zt-yang.github.io/rss23-l4tamp-workshop/assets/paper-template-latex.zip) and [submit](https://openreview.net/group?id=roboticsfoundation.org/RSS/2023/Workshop/LTAMP) via Open Review. Review will be single-blind so there's no need to anonymize your document.
 
 ### Tentative Schedule
 
-The workshop will happen on July 10 in hybrid mode. The in-person location is in Daegu, Republic of Korea.  
+The workshop will happen on November 6th, 2023 for both in-person and online attendees. The in-person location is in Atlanta, USA.  
 
 <table>
 <thead>
   <tr>
-    <th>Time (<a href="https://www.worldtimeserver.com/current_time_in_KR.aspx?city=Daegu">KST</a>, GMT+9)</th>
+    <th>Time (EDT)</th>
     <th>Event</th>
   </tr>
 </thead>
+
 <tbody>
   <tr>
-    <td>09:00 am - 09:10 am</td>
+    <td>08:00 am - 08:25 am</td>
+    <td>Breakfast</td>
+  </tr>
+  <tr>
+    <td>08:25 am - 08:30 am</td>
     <td>Introductory Remarks</td>
   </tr>
   <tr>
-    <td>09:10 am - 10:00 am</td>
-    <td>Invited Talks 1, 2, and 3</td>
+    <td>08:30 am - 9:00 am</td>
+    <td>Invited Talk #1</td>
+  </tr>
+  <tr>
+    <td>09:00 am - 9:30 am</td>
+    <td>Invited Talk #2</td>
+  </tr>
+  <tr>
+    <td>09:30 am - 10:00 am</td>
+    <td>Panel Discussion #1</td>
   </tr>
   <tr>
     <td>10:00 am - 10:30 am</td>
-    <td>Invited Speaker Panel 1</td>
+    <td>Coffee Break</td>
   </tr>
   <tr>
     <td>10:30 am - 11:00 am</td>
-    <td>Coffee Break / Posters 1</td>
+    <td>Invited Talk #3</td>
   </tr>
   <tr>
-    <td>11:00 am - 12:00 pm</td>
-    <td>Invited Talks 4, 5, and 6</td>
+    <td>11:00 am - 11:30 am</td>
+    <td>Invited Talk #4</td>
   </tr>
   <tr>
-    <td>12:00 pm - 1:30 pm</td>
-    <td>Lunch</td>
+    <td>11:30 am - 12:00 pm</td>
+    <td>Panel Discussion #2</td>
   </tr>
   <tr>
-    <td>1:30 pm - 2:00 pm</td>
-    <td>Invited Speaker Panel 2</td>
+    <td>12:00 pm - 01:30 pm</td>
+    <td>Lunch Break</td>
   </tr>
   <tr>
-    <td>2:00 pm - 3:00 pm</td>
-    <td>Poster Spotlight Talks</td>
+    <td>01:30 pm - 02:00 pm</td>
+    <td>Poster Lightning Talks</td>
   </tr>
   <tr>
-    <td>3:00 pm - 3:30 pm</td>
-    <td>Coffee Break / Posters 2</td>
+    <td>02:00 pm - 03:00 pm</td>
+    <td>Poster Session</td>
   </tr>
   <tr>
-    <td>3:30 pm - 4:20 pm</td>
-    <td>Invited Talks 7, 8, and 9</td>
+    <td>03:00 pm - 03:30 pm</td>
+    <td>Invited Talk #5</td>
   </tr>
   <tr>
-    <td>4:20 pm - 4:50 pm</td>
-    <td>Invited Speaker Panel 3</td>
+    <td>03:30 pm - 04:00 pm</td>
+    <td>Invited Talk #6</td>
   </tr>
   <tr>
-    <td>4:50 pm - 5:00 pm</td>
-    <td>Conclusion Remarks</td>
+    <td>04:00 pm - 04:30 pm</td>
+    <td>Invited Talk #7</td>
+  </tr>
+  <tr>
+    <td>04:30 pm - 05:00 pm</td>
+    <td>Debate Panel</td>
   </tr>
 </tbody>
 </table>

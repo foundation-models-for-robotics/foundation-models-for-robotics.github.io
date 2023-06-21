@@ -20,10 +20,10 @@
 
 ## >- # this means to ignore newlines until "baseurl:"
 
-title: LTAMP @ RSS 2023
-email: ztyang@mit.edu
+title: Foundation Models for Robotics @ CoRL 2023
+email: wenlongh@stanford.edu
 description: >
-  <a href="https://roboticsconference.org/" target="_blank">RSS 2023</a> workshop for Learning for Task and Motion Planning (LTAMP), Jul 10 – Jul 14, 2023, at Daegu, Republic of Korea.
+  <a href="https://www.corl2023.org/" target="_blank">CoRL 2023</a> workshop on Foundation Models for Robotics, Nov 6, in Atlanta, United States of America.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -53,7 +53,7 @@ header_pages:
 
 # A two-line attribution (remove this if you have to, but we'd appreciate if you leave this as is)
 attribution: >
-  Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://github.com/krrish94/sniffle-workshop">lazy grad student</a>.
+  Template from <a href="https://github.com/zt-yang">Zhutian Yang</a> based on <a href="https://github.com/krrish94/sniffle-workshop">sniffle workshop template</a>.
 # Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
 # Displays a "last updated" date in the footer if set to "true"

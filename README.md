@@ -1,4 +1,6 @@
-# RSS 2023 Workshop on Learning for Task and Motion Planning
+# CoRL 2023 Workshop on Foundation Models for Robotics
+
+Template from [Zhutian Yang](https://github.com/zt-yang) and adapted from [RSS 2023 L4TAMP workshop](https://zt-yang.github.io/rss23-l4tamp-workshop/).
 
 ## Modify the page
 
